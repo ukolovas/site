@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <body link="yellow" vlink="#D3D3D3" alink="#ADFF2F" baground color="black"></body>
+    <body style="color:black"></body>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+      <ul class="menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="kontakt.html">Контакты</a></li>
+      </ul>
+</body>
+<h1>Контакты</h1>
+    <legend>Напишите нам</legend>
+    <fieldset>
+    <legend>Поля для заполнения</legend>
+    <form action="#">
+        <strong>Имя:<input type="text" placeholder="Имя"><br></strong>
+        <strong>Email:<input type="text" placeholder="Email"><br></strong>
+        <strong>Тема:<input type="text" placeholder="Тема"><br></strong>
+        <strong>Текстовое поле:<input type="text" placeholder="Текстовое поле"><br></strong>
+        <strong>Согласны получать уведомления по email:<br></strong>
+        Да <input type="radio" name="pol" checked><br>
+        Нет <input type="radio" name="pol"><br>
+        <input type="submit" value="Отправить данные">
+        <input type="reset" value="Отмена">
+      </fieldset>
+
+      <fieldset>
+        <legend>Регистрация</legend>
+        <label for="fullname">Имя</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Имя">
+        <div class="half-width">
+        <label for="surname">Фамилия</label>
+        <input type="text" id="surname" name="surname" placeholder="Фамилия">
+        </div>
+        <div class="half-width">
+        <label for="year">Год рождения</label>
+        <input type="text" id="year" name="year" placeholder="ДД:ММ:ГГГГ">
+        </div>
+        <div class="half-width">
+        <label for="login">Логин</label>
+        <input type="text" id="login" name="login" placeholder="Логин">
+        </div>
+        <div class="half-width">
+        <label for="password">Пароль</label>
+        <input type="password" id="password" name="password" placeholder="Пароль">
+        </div>
+        <input type="submit" value="Войти">
+        </fieldset>
+
+        <fieldset>
+        <legend>Заявление на получение заказа</legend>
+        <label for="passport">Номер паспорта</label>
+        <input type="text" id="passport" name="passport" pattern="[0-9]{3}-[0-9]{5}" placeholder="Формат номера XXX-XXXXX">
+        <div class="half-width">
+        <label for="tel">Номер телефона</label>
+        <input type="tel" id="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Формат номера X-XXX-XXX-XX-XX">
+        </div>
+        <label for="email">Email</label>
+        <input type="email" id="email" mame="email" placeholder="Email">
+        <div class="half-width">
+          <label for="date">Дата доставки</label>
+          <input type="date" id="date" name="date" value="2020-11-10">
+        </div>
+        <div class="half-width">
+          <label for="time">Время доставки</label>
+          <input type="time" id="time" name="time" value="12:00">
+        </div>
+        <div class="two-third-width">
+         <br> <label for="point">Пункт выдачи</label>
+         <br> <select id="point" name="point" multiple>
+            <optgroup label="Группа вариантов выдачи 1">
+              <option value="street">г.Ступино ул.Чайковского д.8</option>
+              <option value="street">г.Ступино ул.Горького д.32</option>
+              <option value="street">г.Ступино ул.Куйбышева д.96 к.2</option>
+            </optgroup>
+            <optgroup label="Группа вариантов выдачи 2">
+              <option value="street">г.Ступино ул.Первомайская д.18 А</option>
+              <option value="street">г.Ступино ул.Проспект-Победы д.64 к.3</option>
+              <option value="street">г.Ступино ул.Пушкина д.3 к.2/3</option>
+            </optgroup>
+            <div class="buttons">
+              <input type="submit" value="Отправить">
+            </div>
+          </select>
+        </div>
+        </fieldset>
+
+        
+        <fieldset>
+        <legend>Адрес</legend>
+        <p><span id="adress">Контактный номер телефона интернет-магазина:
+            <br>+7 (495) 777-777-5</p>
+        <p>Адрес:
+        <br>Москва, Алтуфьевское шоссе, 8, 2 этаж; ТРЦ Алтуфьевский. Округ СВАО, Район Отрадное.
+      </p>
+    <p>Email:
+    <br>ukey@17gmail.com
+  </p>
+    <p>Информация о магазине:
+    <br>Магазин бытовой техники и электроники,который позволит Вам быстро и удобно найти интересующий Вас товар и поможет определиться с покупкой.</span>
+  </p>
+</fieldset>
+
+    </form>
+    
+    <br>
+    <iframe src="https://www.google.ru/maps/place/ТЦ+Алтуфьевский/@55.8528375,37.5846938,17.75z/data=!4m5!3m4!1s0x46b537ab6d1fa3e3:0x8c3c48ffe1ea0f1d!8m2!3d55.8529268!4d37.5858131" width="700" height="460" frameborder="0" style="border:0" allowfullscreen></iframe>
+   <br> 
+   <hr><a href="https://ukolovas.github.io/site/catalog.html">UKEY</a>
+        <hr>
+        <div class="clear">
+        <div id="footer">
+            <p class="fon"><strong>Телефон:<br>+7 (495) 777-777-5</strong> </p>
+            <p class="fax"><strong>Факс:<br> 265-85-97</strong></p>
+            <p class="mail"><strong>E-mail:<br>ukey@17gmail.com</strong></p>
+          </div>
+        </div>
+       <footer><br>Все права защищены &copy;&nbsp;2020</br></footer>
+</html>

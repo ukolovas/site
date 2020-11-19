@@ -1,0 +1,117 @@
+body {
+  background-image: url('фон3.jpg');
+}
+.letter {
+ font-size: 200%; 
+ color:black; 
+ font-weight: 400;
+ background-color:#eaeaea;
+} 
+p{
+  color: rgb(0, 0, 0); 
+}
+
+#footer{ 
+  height:80px; 
+  background-color: #ffffff; 
+  margin-bottom: 10px; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+}
+.clear{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
+  clear: both;
+}
+.fon{ /* Номер телефона */
+  float:left; /* Разрешаем другим элементам обтекать абзац справа */
+  margin:20px 0 0 20px;
+  color:#C71585;
+  font-size: 20px;
+}
+.fax{ /* Номер факса */
+  float:left;
+  margin:20px 0 0 60px;
+  color:#C71585;
+  font-size: 20px;
+  
+}
+.mail{ /* Адрес E-mail */
+  float:left;
+ margin:20px 0 0 60px;
+ color:#C71585;
+ font-size: 20px;
+}
+img {
+  border: 4px solid #4B0082;
+  border-radius: 7px;
+}
+.menu li:hover:before{
+  content: ">>";
+  color:yellow;
+}
+.mt-100 {
+margin-top: 100px;
+}
+input[required]{
+background-color:#fcf8e3;
+}
+input[type]{
+  background-color: #f2dede;
+}
+input[type="submit"]{
+  border-color: green;
+}
+input[type="reset"]{
+  border-color: yellow;
+}
+legend{
+  font-size: 30px;
+  line-height: 56px;
+  color: darksalmon;
+}
+fieldset{
+  background: rgba(241, 119, 180, 0.28);
+}
+.br{
+text-align:right;
+}
+article h3 {
+  text-align: center;
+  font-size: 30px;
+ color: yellowgreen;
+}
+article p{
+  text-align: center;
+  font-size: 30px;
+ color: yellowgreen;
+}
+
+footer{
+  text-align: right;
+  margin-top: 5%;
+  color: black;
+  font-size: 20px;
+}
+abbr{
+  text-align: center;
+  display:inline-block;
+  list-style: none;
+  margin-left: 7%;
+  border: 1px solid #e388ffc4;
+  border-radius: 7px;
+  margin-top: 3%;
+}
+p description
+{
+  text-align: left;
+  font-size: 20px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
